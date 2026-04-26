@@ -1,0 +1,60 @@
+/* TÍTULO PRINCIPAL */
+h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+/* SUBTÍTULOS */
+h2 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+h3 {
+color: red;
+}
+
+/* PARÁGRAFOS */
+p {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+
+
+li {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* IMAGENS CENTRALIZADAS */
+.imagem-aula {
+  text-align: center;
+  margin: 30px 0;
+}
+
+
+
+/* DESTAQUES */
+strong {
+  font-weight: normal;
+}
+
+/* SOMENTE TÍTULOS EM NEGRITO */
+h1 strong,
+h2 strong,
+h3 strong {
+  font-weight: bold;
+}
