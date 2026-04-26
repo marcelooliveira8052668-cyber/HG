@@ -3905,7 +3905,11 @@ História Geral.
 <h3>Continua...</h3>
     </main>
  
-
+<script>
+if (localStorage.getItem("logado") !== "true") {
+    window.location.href = "login/login.html";
+}
+</script>
     <footer>
       <p>&copy; Todos os direitos reservados ao Prof. Marcelo Oliveira</p>
     </footer>
